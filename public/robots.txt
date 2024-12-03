@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://manresix.vercel.app/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
+
+# Additional rules
+Allow: /*.js
+Allow: /*.css
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.ico
+
+# Social media profiles
+Allow: /facebook
+Allow: /instagram
+
+# Block specific file types
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+Disallow: /*.xls$
+Disallow: /*.xlsx$

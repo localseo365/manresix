@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .aspect-w-16 {
+    position: relative;
+    padding-bottom: 56.25%;
+  }
+  
+  .aspect-h-9 {
+    position: relative;
+  }
+  
+  .aspect-w-16 img,
+  .aspect-h-9 img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+  }
+}
+
+/* Swiper custom styles */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #FF6B00 !important;
+  background: rgba(255, 255, 255, 0.9);
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px !important;
+}
+
+.swiper-pagination-bullet {
+  background: #FF6B00 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #FF6B00 !important;
+}
